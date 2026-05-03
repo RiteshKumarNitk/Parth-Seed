@@ -88,3 +88,18 @@
   content: '';
   @apply absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-1 bg-accent;
 }
+.glass-effect {
+  @apply bg-white/80 backdrop-blur-md border-white/20;
+}
+
+.transition-premium {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.mobile-drawer {
+  @apply fixed inset-y-0 right-0 w-full max-w-xs bg-white shadow-2xl z-[100] transform transition-transform duration-300 ease-in-out;
+}
+
+.mobile-overlay {
+  @apply fixed inset-0 bg-black/50 backdrop-blur-sm z-[99] transition-opacity duration-300;
+}

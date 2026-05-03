@@ -11,7 +11,7 @@ export default function Home() {
     <main className="relative min-h-screen bg-white">
       <Header />
       
-      <div className="pt-[110px]">
+      <div className="pt-0">
         <Hero />
       </div>
 

@@ -21,7 +21,7 @@ export default function MediaPage() {
     <main className="min-h-screen bg-white">
       <Header />
       
-      <div className="pt-[110px]">
+      <div className="pt-24 md:pt-[110px]">
         {/* Banner */}
         <section className="bg-primary py-12 text-white">
           <div className="container-custom">

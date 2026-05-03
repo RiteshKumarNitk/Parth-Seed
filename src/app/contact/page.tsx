@@ -6,8 +6,8 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      
-      <div className="pt-[110px]">
+
+      <div className="pt-24 md:pt-[110px]">
         {/* Banner */}
         <section className="bg-primary py-12 text-white">
           <div className="container-custom">
@@ -117,9 +117,18 @@ export default function ContactPage() {
         </section>
 
         {/* Map Placeholder */}
-        <section className="h-[400px] bg-gray-100 relative grayscale">
+        <section className="h-[300px] md:h-[450px] bg-gray-100 relative">
           <div className="absolute inset-0 flex items-center justify-center text-gray-400 font-bold uppercase tracking-widest text-sm">
-            [ Interactive Google Map Location ]
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15974.738581505315!2d75.79492283396017!3d26.904493024552114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db410e1d781c3%3A0x62ee6e23ef3c9ccb!2sHoliday%20Inn%20Jaipur%20City%20Centre%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sin!4v1777832175543!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Office Location"
+            ></iframe>
           </div>
         </section>
       </div>
