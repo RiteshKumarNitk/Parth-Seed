@@ -28,7 +28,7 @@ export default function VisionMissionPage() {
                   <div>
                     <h2 className="text-primary mb-6">Our Vision</h2>
                     <p className="text-gray-600 leading-relaxed italic text-lg border-l-4 border-accent pl-6">
-                      "To be a global leader in agricultural biotechnology, providing innovative and sustainable seed solutions that transform the lives of farmers and ensure a hunger-free world."
+                      &quot;To be a global leader in agricultural biotechnology, providing innovative and sustainable seed solutions that transform the lives of farmers and ensure a hunger-free world.&quot;
                     </p>
                   </div>
                 </div>

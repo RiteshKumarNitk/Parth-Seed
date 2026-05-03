@@ -36,7 +36,7 @@ export default function InnovationPage() {
                 <h2 className="mb-6">Our Scientific Approach</h2>
                 <div className="w-16 h-1 bg-accent mb-8"></div>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Research & Development is the cornerstone of Parth Seed's success. We invest heavily in advanced plant breeding, biotechnology, and seed technology to create products that deliver consistent performance under challenging environmental conditions.
+                  Research &amp; Development is the cornerstone of Parth Seed&apos;s success. We invest heavily in advanced plant breeding, biotechnology, and seed technology to create products that deliver consistent performance under challenging environmental conditions.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
                   <div className="flex items-start gap-4">

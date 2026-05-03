@@ -6,7 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { products } from "@/data/products";
 import Image from "next/image";
-import { ArrowLeft, Info, Download, Microscope, ShieldCheck } from "lucide-react";
+import { ArrowLeft, Download, Microscope, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 
 export default function ProductDetailPage() {

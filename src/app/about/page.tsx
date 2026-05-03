@@ -52,7 +52,7 @@ export default function AboutPage() {
               <div className="standard-card">
                 <h3 className="mb-6 text-primary">Our Vision</h3>
                 <p className="text-gray-600 leading-relaxed italic">
-                  "To be a global leader in agricultural biotechnology, providing innovative and sustainable seed solutions that transform the lives of farmers and ensure a hunger-free world."
+                  &quot;To be a global leader in agricultural biotechnology, providing innovative and sustainable seed solutions that transform the lives of farmers and ensure a hunger-free world.&quot;
                 </p>
               </div>
               <div className="standard-card">

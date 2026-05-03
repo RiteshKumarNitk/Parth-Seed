@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import Image from "next/image";
 import { Users, Briefcase, Heart, Rocket, ArrowRight } from "lucide-react";
 
 export default function CareersPage() {
@@ -90,7 +89,7 @@ export default function CareersPage() {
           </div>
 
           <div className="mt-16 text-center">
-            <p className="text-muted-foreground mb-6">Don't see a role that fits? We're always looking for talent.</p>
+            <p className="text-muted-foreground mb-6">Don&apos;t see a role that fits? We&apos;re always looking for talent.</p>
             <button className="text-primary font-bold border-b-2 border-primary hover:text-accent hover:border-accent transition-all">
               Send us your CV anyway
             </button>

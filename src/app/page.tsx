@@ -119,7 +119,7 @@ export default function Home() {
               <div key={i} className="bg-white border border-border overflow-hidden">
                 <div className="p-6">
                   <span className="text-[10px] font-bold text-accent mb-2 block tracking-widest">MAY 15, 2024</span>
-                  <h4 className="normal-case text-primary font-bold text-base mb-4 leading-snug">New hybrid cotton variety 'Parth-99' receives certification.</h4>
+                  <h4 className="normal-case text-primary font-bold text-base mb-4 leading-snug">New hybrid cotton variety &apos;Parth-99&apos; receives certification.</h4>
                   <button className="text-primary font-bold text-[11px] hover:underline">READ MORE</button>
                 </div>
               </div>

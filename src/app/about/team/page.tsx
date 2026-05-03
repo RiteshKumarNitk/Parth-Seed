@@ -50,7 +50,7 @@ export default function ManagementTeamPage() {
                 <div className="standard-card bg-muted border-none p-10">
                   <h3 className="text-sm mb-6 uppercase tracking-widest">Core Philosophy</h3>
                   <p className="text-gray-600 text-sm italic border-l-4 border-accent pl-6 mb-8">
-                    "We believe that leadership is not just about making decisions, but about creating an environment where scientific curiosity and farmer-centric solutions can thrive."
+                    &quot;We believe that leadership is not just about making decisions, but about creating an environment where scientific curiosity and farmer-centric solutions can thrive.&quot;
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-center gap-3 text-xs text-primary font-bold">
