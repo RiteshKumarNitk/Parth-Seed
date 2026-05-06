@@ -10,7 +10,7 @@ import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { Search, Filter, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const categories = ["All", "Row Crops", "Vegetable Crops"];
+const categories = ["All", "Field Crops", "Vegetable Crops", "Bio Products"];
 
 function ProductListContent() {
   const router = useRouter();

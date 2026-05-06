@@ -2,6 +2,10 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/home/Hero";
 import FeatureSection from "@/components/home/FeatureSection";
+import ExpertiseSection from "@/components/home/ExpertiseSection";
+import DivisionsSection from "@/components/home/DivisionsSection";
+import AchievementsSection from "@/components/home/AchievementsSection";
+import AboutImageSlider from "@/components/home/AboutImageSlider";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -10,7 +14,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen bg-white">
       <Header />
-      
+
       <div className="pt-0">
         <Hero />
       </div>
@@ -21,22 +25,16 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <div className="border border-border p-2 bg-muted">
-                <Image 
-                  src="/row-crops.png" 
-                  alt="About Us" 
-                  width={600} 
-                  height={400} 
-                  className="w-full h-auto"
-                />
+                <AboutImageSlider />
               </div>
             </div>
             <div className="md:w-1/2">
               <h2 className="mb-6">Who We Are</h2>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Parth Seed Limited is a leading name in the Indian seed industry, dedicated to developing and providing high-quality hybrid seeds that cater to the diverse needs of farmers across the country.
+              <p className="text-gray-600 mb-4 leading-relaxed font-bold">
+                Parth Seeds Pvt. Ltd.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                With our robust R&D capabilities and a vast network of processing units, we ensure that every seed we produce meets the highest standards of genetic purity and germination.
+                Pioneering agricultural excellence for over 20 years. Providing specialized seeds, protection, and nutrition solutions to 2500+ farmers across India. With our robust R&D capabilities and a vast network of processing units, we ensure that every seed we produce meets the highest standards of genetic purity and germination.
               </p>
               <button className="btn-primary">Learn More About Us</button>
             </div>
@@ -46,6 +44,9 @@ export default function Home() {
 
       {/* Strengths Section */}
       <FeatureSection />
+
+      {/* Expertise Section */}
+      <ExpertiseSection />
 
       {/* Product Categories */}
       <section className="section-padding">
@@ -63,7 +64,7 @@ export default function Home() {
               <p className="text-gray-500 mb-6 text-sm">
                 High-yielding varieties of Cotton, Maize, Wheat, and Mustard optimized for different soil types and climatic conditions.
               </p>
-              <Link href="/products?category=Row Crops" className="text-primary font-bold text-xs flex items-center gap-2 hover:underline">
+              <Link href="/products?category=Field Crops" className="text-primary font-bold text-xs flex items-center gap-2 hover:underline">
                 VIEW VARIETIES <ArrowRight size={14} />
               </Link>
             </div>
@@ -84,32 +85,38 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Divisions Section */}
+      <DivisionsSection />
+
+      {/* Achievements Section */}
+      <AchievementsSection />
+
       {/* Stats Section */}
-      <section className="bg-secondary py-12 text-white">
+      {/* <section className="bg-secondary py-12 text-white">
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-display font-bold mb-2">25+</div>
-              <div className="text-xs uppercase tracking-widest text-gray-400 font-bold">Years of Experience</div>
+              <div className="text-3xl font-display font-bold mb-2">20+</div>
+              <div className="text-xs uppercase tracking-widest text-gray-400 font-bold">Years of Service</div>
             </div>
             <div>
-              <div className="text-3xl font-display font-bold mb-2">120+</div>
-              <div className="text-xs uppercase tracking-widest text-gray-400 font-bold">Hybrid Varieties</div>
+              <div className="text-3xl font-display font-bold mb-2">3000+</div>
+              <div className="text-xs uppercase tracking-widest text-gray-400 font-bold">Total Clients</div>
             </div>
             <div>
-              <div className="text-3xl font-display font-bold mb-2">10M+</div>
-              <div className="text-xs uppercase tracking-widest text-gray-400 font-bold">Farmers Trust Us</div>
+              <div className="text-3xl font-display font-bold mb-2">2500+</div>
+              <div className="text-xs uppercase tracking-widest text-gray-400 font-bold">Happy Farmers</div>
             </div>
             <div>
-              <div className="text-3xl font-display font-bold mb-2">500+</div>
-              <div className="text-xs uppercase tracking-widest text-gray-400 font-bold">Distribution Points</div>
+              <div className="text-3xl font-display font-bold mb-2">38+</div>
+              <div className="text-xs uppercase tracking-widest text-gray-400 font-bold">Subsectors</div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* News Section */}
-      <section className="section-padding bg-muted/20">
+      {/* <section className="section-padding bg-muted/20">
         <div className="container-custom">
           <div className="section-title">
             <h2>Latest Updates</h2>
@@ -126,7 +133,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </main>

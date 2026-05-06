@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown, Phone, Mail, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -21,8 +22,9 @@ const navLinks = [
     name: "Products",
     href: "/products",
     submenu: [
-      { name: "Row Crops", href: "/products?category=Row Crops" },
+      { name: "Field Crops", href: "/products?category=Field Crops" },
       { name: "Vegetable Crops", href: "/products?category=Vegetable Crops" },
+      { name: "Bio Products", href: "/products?category=Bio Products" },
     ]
   },
   { name: "R&D", href: "/innovation" },
@@ -69,11 +71,11 @@ export default function Header() {
         )}>
           <div className="container-custom flex justify-between items-center whitespace-nowrap">
             <div className="flex gap-4 md:gap-8">
-              <a href="tel:+911234567890" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Phone size={12} /> +91 123 456 7890
+              <a href="tel:+919752589664" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Phone size={12} /> +91 97525 89664
               </a>
-              <a href="mailto:info@parthseed.com" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Mail size={12} /> info@parthseed.com
+              <a href="mailto:rohit135@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Mail size={12} /> rohit135@gmail.com
               </a>
             </div>
             <div className="hidden sm:block tracking-widest">ISO 9001:2015 CERTIFIED</div>
@@ -87,10 +89,16 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className={cn(
-              "w-10 h-10 md:w-12 md:h-12 flex items-center justify-center font-display font-bold text-xl md:text-2xl rounded-sm transition-transform group-hover:scale-110",
+              "animate-logo relative overflow-hidden w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-sm transition-transform group-hover:scale-110",
               isHomePage && !isScrolled ? "bg-white text-primary" : "bg-primary text-white"
             )}>
-              P
+              <Image 
+                src="/logo/parthseeds.jpg" 
+                alt="Parth Seed Logo" 
+                fill 
+                className="object-cover" 
+                priority
+              />
             </div>
             <div className="flex flex-col">
               <span className={cn(
@@ -195,7 +203,12 @@ export default function Header() {
       )}>
         <div className="flex flex-col h-full bg-white">
           <div className="flex justify-between items-center p-6 border-b border-border bg-white">
-            <span className="font-display font-black text-primary text-xl tracking-tighter">PARTH SEED</span>
+            <div className="flex items-center gap-3">
+              <div className="animate-logo relative overflow-hidden w-10 h-10 rounded-sm bg-primary">
+                <Image src="/logo/parthseeds.jpg" alt="Parth Seed" fill className="object-cover" />
+              </div>
+              <span className="font-display font-black text-primary text-xl tracking-tighter">PARTH SEED</span>
+            </div>
             <button
               onClick={() => setIsMobileMenuOpen(false)}
               className="p-2 text-primary hover:bg-muted rounded-full transition-colors focus:outline-none"
@@ -250,10 +263,10 @@ export default function Header() {
           <div className="p-8 bg-muted/50 border-t border-border">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3 text-xs font-bold text-secondary">
-                <Phone size={16} className="text-primary" /> +91 123 456 7890
+                <Phone size={16} className="text-primary" /> +91 97525 89664
               </div>
               <div className="flex items-center gap-3 text-xs font-bold text-secondary">
-                <Mail size={16} className="text-primary" /> info@parthseed.com
+                <Mail size={16} className="text-primary" /> rohit135@gmail.com
               </div>
               <Link
                 href="/contact"

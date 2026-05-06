@@ -31,9 +31,12 @@ export default function ContactPage() {
                     <div>
                       <h4 className="text-sm mb-2">REGISTERED OFFICE</h4>
                       <p className="text-xs text-gray-500 leading-relaxed font-bold uppercase tracking-wide">
-                        Seed Valley, Building No. 45, <br />
-                        Agriculture Hub, Ahmedabad, <br />
-                        Gujarat, India - 380001
+                        PARTH SEEDS PVT. LTD. <br />
+                        Infront of Dwivedi beej Bhandar, <br />
+                        JP road, shine library, beside of <br />
+                        pandey kirana store, near of sachchu <br />
+                        fruits & vegetables shop, Bagha, <br />
+                        Bagha Infront of, Satna, Madhya Pradesh 485001
                       </p>
                     </div>
                   </div>
@@ -45,8 +48,10 @@ export default function ContactPage() {
                     <div>
                       <h4 className="text-sm mb-2">CALL US</h4>
                       <p className="text-xs text-gray-500 font-bold tracking-widest">
-                        +91 123 456 7890 <br />
-                        +91 098 765 4321
+                        +91 97525 89664 <br />
+                        +91 94259 79664 <br />
+                        +91 98933 32398
+
                       </p>
                     </div>
                   </div>
@@ -119,16 +124,17 @@ export default function ContactPage() {
         {/* Map Placeholder */}
         <section className="h-[300px] md:h-[450px] bg-gray-100 relative">
           <div className="absolute inset-0 flex items-center justify-center text-gray-400 font-bold uppercase tracking-widest text-sm">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15974.738581505315!2d75.79492283396017!3d26.904493024552114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db410e1d781c3%3A0x62ee6e23ef3c9ccb!2sHoliday%20Inn%20Jaipur%20City%20Centre%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sin!4v1777832175543!5m2!1sen!2sin" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen 
-              loading="lazy" 
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.195109394803!2d80.8192689!3d24.595083499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39847f006c39d417%3A0x5846f6ff0e35d1cf!2sPARTH%20SEEDS%20PVT.%20LTD.!5e1!3m2!1sen!2sin!4v1778084548181!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Office Location"
             ></iframe>
+
           </div>
         </section>
       </div>

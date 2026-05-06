@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -13,6 +13,7 @@ export default function ProductDetailPage() {
   const params = useParams();
   const router = useRouter();
   const product = products.find((p) => p.id === params.id);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   if (!product) {
     return (
@@ -48,8 +49,21 @@ export default function ProductDetailPage() {
               <div className="lg:w-1/2">
                 <div className="border border-border p-2 bg-muted">
                   <div className="relative aspect-[4/3] overflow-hidden bg-white">
-                    <Image src={product.image} alt={product.name} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+                    <Image src={product.images ? product.images[activeImageIndex] : product.image} alt={product.name} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                   </div>
+                  {product.images && product.images.length > 1 && (
+                    <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
+                      {product.images.map((img, idx) => (
+                        <button 
+                          key={idx}
+                          onClick={() => setActiveImageIndex(idx)}
+                          className={`relative w-20 h-20 shrink-0 border-2 transition-all ${activeImageIndex === idx ? 'border-primary' : 'border-transparent hover:border-primary/50'}`}
+                        >
+                          <Image src={img} alt={`${product.name} ${idx + 1}`} fill sizes="80px" className="object-cover" />
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4 mt-6">

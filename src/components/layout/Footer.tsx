@@ -29,8 +29,8 @@ export default function Footer() {
               <li><Link href="/about" className="hover:text-white">About the Company</Link></li>
               <li><Link href="/products" className="hover:text-white">Our Product Range</Link></li>
               <li><Link href="/innovation" className="hover:text-white">Research & Development</Link></li>
-              <li><Link href="/media" className="hover:text-white">Media & News</Link></li>
-              <li><Link href="/contact" className="hover:text-white">Career Opportunities</Link></li>
+              {/* <li><Link href="/media" className="hover:text-white">Media & News</Link></li>
+              <li><Link href="/contact" className="hover:text-white">Career Opportunities</Link></li> */}
             </ul>
           </div>
 
@@ -38,10 +38,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white border-l-4 border-accent pl-3 mb-6 text-sm">PRODUCTS</h4>
             <ul className="space-y-3 text-xs text-gray-400">
-              <li><Link href="/products?category=Row Crops" className="hover:text-white">Hybrid Cotton Seeds</Link></li>
-              <li><Link href="/products?category=Row Crops" className="hover:text-white">Hybrid Maize Seeds</Link></li>
+              <li><Link href="/products?category=Field Crops" className="hover:text-white">Hybrid Cotton Seeds</Link></li>
+              <li><Link href="/products?category=Field Crops" className="hover:text-white">Hybrid Maize Seeds</Link></li>
               <li><Link href="/products?category=Vegetable Crops" className="hover:text-white">Vegetable Seeds</Link></li>
-              <li><Link href="/products?category=Row Crops" className="hover:text-white">Field Crop Seeds</Link></li>
+              <li><Link href="/products?category=Field Crops" className="hover:text-white">Field Crop Seeds</Link></li>
             </ul>
           </div>
 
@@ -64,6 +64,8 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+
+
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] text-gray-500 font-bold uppercase tracking-widest">
           <p>© {new Date().getFullYear()} PARTH SEED LIMITED. ALL RIGHTS RESERVED.</p>
