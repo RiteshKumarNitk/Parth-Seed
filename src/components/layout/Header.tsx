@@ -10,9 +10,10 @@ import Image from "next/image";
 const navLinks = [
   { name: "Home", href: "/" },
   {
-    name: "About Us",
+    name: "About",
     href: "/about",
     submenu: [
+      { name: "About Us", href: "/about" },
       { name: "Company Profile", href: "/about/profile" },
       { name: "Vision & Mission", href: "/about/vision" },
       { name: "Management Team", href: "/about/team" },
@@ -22,6 +23,7 @@ const navLinks = [
     name: "Products",
     href: "/products",
     submenu: [
+      { name: "All Products", href: "/products" },
       { name: "Field Crops", href: "/products?category=Field Crops" },
       { name: "Vegetable Crops", href: "/products?category=Vegetable Crops" },
       { name: "Bio Products", href: "/products?category=Bio Products" },
@@ -84,7 +86,7 @@ export default function Header() {
 
         <nav className={cn(
           "container-custom flex justify-between items-center transition-all duration-300",
-          isScrolled ? "py-3" : "py-5 md:py-8"
+          isScrolled ? "py-3" : "py-2 md:py-4"
         )}>
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
@@ -92,11 +94,11 @@ export default function Header() {
               "animate-logo relative overflow-hidden w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-sm transition-transform group-hover:scale-110",
               isHomePage && !isScrolled ? "bg-white text-primary" : "bg-primary text-white"
             )}>
-              <Image 
-                src="/logo/parthseeds.jpg" 
-                alt="Parth Seed Logo" 
-                fill 
-                className="object-cover" 
+              <Image
+                src="/logo/parthseeds.jpg"
+                alt="Parth Seed Logo"
+                fill
+                className="object-cover"
                 priority
               />
             </div>
@@ -118,8 +120,10 @@ export default function Header() {
               <div key={link.name} className="relative group px-1">
                 <Link
                   href={link.href}
+                  onClick={(e) => link.submenu && e.preventDefault()}
                   className={cn(
                     "px-4 py-2 text-[12px] font-black tracking-widest uppercase transition-all duration-300 flex items-center gap-1 relative",
+                    link.submenu ? "cursor-default" : "cursor-pointer",
                     pathname === link.href || (link.submenu && pathname.startsWith(link.href))
                       ? isHomePage && !isScrolled ? "text-white" : "text-primary"
                       : isHomePage && !isScrolled ? "text-white/80 hover:text-white" : "text-secondary hover:text-primary"

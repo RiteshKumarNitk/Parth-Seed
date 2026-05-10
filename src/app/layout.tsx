@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import FloatingContactButtons from "@/components/layout/FloatingContactButtons";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col selection:bg-accent/30">
         {children}
+        <FloatingContactButtons />
       </body>
     </html>
   );

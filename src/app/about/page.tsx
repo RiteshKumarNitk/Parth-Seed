@@ -24,10 +24,13 @@ export default function AboutPage() {
                 <h2 className="mb-6">Corporate Profile</h2>
                 <div className="w-16 h-1 bg-accent mb-8"></div>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Established with a vision to revolutionize the agricultural landscape, Parth Seed Limited has emerged as a premier seed company in India. For over three decades, we have been at the forefront of developing high-performing hybrid seeds that empower farmers and ensure food security.
+                  Parth Seeds Private Limited is built on over a decade of real agricultural experience. Founded by Rohit Kumar Tiwari and Santosh Jaiswal, our journey began in 2014 through direct field operations across central India — working closely with farmers, understanding their needs, and delivering seeds that actually perform.
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Our core strength lies in our robust Research & Development capabilities, supported by a world-class team of scientists and state-of-the-art breeding facilities. We are committed to delivering seeds that offer superior yield potential, disease resistance, and adaptability to diverse agro-climatic conditions.
+                  By the time we officially incorporated on September 5, 2025, we had already spent 11 years building trust on the ground. On January 7, 2026, the Government of India formally recognized us as a Startup India entity under DPIIT (Certificate No. DIPP237743) — validating what our farmers already knew.
+                </p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Today, we are an ISO 9001:2015 certified company operating across Madhya Pradesh, Chhattisgarh, and Jharkhand, offering a complete portfolio of hybrid seeds, bio-fertilizers, and crop protection products.
                 </p>
               </div>
               <div className="md:w-1/2">
@@ -52,7 +55,7 @@ export default function AboutPage() {
               <div className="standard-card">
                 <h3 className="mb-6 text-primary">Our Vision</h3>
                 <p className="text-gray-600 leading-relaxed italic">
-                  &quot;To be a global leader in agricultural biotechnology, providing innovative and sustainable seed solutions that transform the lives of farmers and ensure a hunger-free world.&quot;
+                  &quot;To be a nationally trusted agricultural company — delivering certified quality seeds, innovative bio-solutions, and honest partnerships that help every farmer grow.&quot;
                 </p>
               </div>
               <div className="standard-card">
@@ -60,15 +63,15 @@ export default function AboutPage() {
                 <ul className="space-y-4 text-gray-600 text-sm">
                   <li className="flex gap-3">
                     <span className="text-accent font-bold">•</span>
-                    To develop high-yielding hybrid seeds through precision breeding.
+                    <span>To supply high-yielding, quality-certified hybrid seeds suited to the agro-climatic conditions of central India and beyond.</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="text-accent font-bold">•</span>
-                    To provide technical guidance and support to the farming community.
+                    <span>To offer farmers a complete input solution — from field crops and vegetable seeds to bio-fertilizers and crop protection products — under one reliable brand.</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="text-accent font-bold">•</span>
-                    To maintain the highest standards of genetic purity and quality.
+                    <span>To expand our reach from MP, Chhattisgarh, and Jharkhand to all Indian states, and ultimately to global markets.</span>
                   </li>
                 </ul>
               </div>
@@ -80,21 +83,37 @@ export default function AboutPage() {
         <section className="section-padding">
           <div className="container-custom">
             <div className="section-title">
-              <h2>Our Management Team</h2>
+              <h2>Our Leadership</h2>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-              {[1, 2, 3].map((i) => (
-                <div key={i} className="standard-card text-center">
-                  <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-6 flex items-center justify-center text-gray-400 font-bold text-2xl uppercase">
-                    M{i}
-                  </div>
-                  <h4 className="mb-2">Executive Director</h4>
-                  <p className="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">Leadership Team</p>
-                  <p className="text-[11px] text-gray-500">
-                    With decades of experience in the seed industry, our leadership ensures strategic growth and scientific excellence.
-                  </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="standard-card text-center flex flex-col items-center">
+                <div className="w-32 h-32 bg-gray-200 rounded-full mb-6 flex items-center justify-center text-gray-400 font-bold text-2xl uppercase">
+                  RT
                 </div>
-              ))}
+                <h4 className="mb-2">Rohit Kumar Tiwari</h4>
+                <p className="text-xs text-primary font-bold uppercase tracking-widest mb-4">Co-Founder & Director</p>
+                <p className="text-sm text-gray-600 mb-4 leading-relaxed">
+                  With 11+ years of hands-on agricultural experience since 2014, Rohit brings deep field-level expertise and a farmer-first approach to every product and decision at Parth Seeds.
+                </p>
+                <div className="text-xs text-gray-500 font-medium">
+                  <p>Contact: +91 97525 89664</p>
+                  <p>rohit135@gmail.com</p>
+                </div>
+              </div>
+
+              <div className="standard-card text-center flex flex-col items-center">
+                <div className="w-32 h-32 bg-gray-200 rounded-full mb-6 flex items-center justify-center text-gray-400 font-bold text-2xl uppercase">
+                  SJ
+                </div>
+                <h4 className="mb-2">Santosh Jaiswal</h4>
+                <p className="text-xs text-primary font-bold uppercase tracking-widest mb-4">Co-Founder & Director</p>
+                <p className="text-sm text-gray-600 mb-4 leading-relaxed">
+                  An equal driving force behind Parth Seeds, Santosh brings operational strength and strong farmer relationships that have helped build a trusted network across central India.
+                </p>
+                <div className="text-xs text-gray-500 font-medium">
+                  <p>Contact: +91 98933 32398</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>

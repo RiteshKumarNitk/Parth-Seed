@@ -733,12 +733,12 @@ export const products: Product[] = [
   },
   {
     "id": "zyme-46",
-    "name": "Zyme",
+    "name": "Parth Zyme",
     "category": "Bio Products",
     "subcategory": "Zyme",
-    "image": "/row-crops.png",
+    "image": "/Bio/ParthZyme.jpeg",
     "images": [
-      "/row-crops.png"
+      "/Bio/ParthZyme.jpeg"
     ],
     "description": "Bio-based growth enhancer that supports plant development and improves crop performance.",
     "features": [
@@ -752,9 +752,9 @@ export const products: Product[] = [
     "name": "Miticide",
     "category": "Bio Products",
     "subcategory": "Miticide",
-    "image": "/row-crops.png",
+    "image": "/Bio/Miticyde.jpeg",
     "images": [
-      "/row-crops.png"
+      "/Bio/Miticyde.jpeg"
     ],
     "description": "Effective solution for controlling mites and protecting crops from damage.",
     "features": [
@@ -768,9 +768,9 @@ export const products: Product[] = [
     "name": "Plant Promoter",
     "category": "Bio Products",
     "subcategory": "Plant Promoter",
-    "image": "/row-crops.png",
+    "image": "/Bio/PlantPromoter.jpeg",
     "images": [
-      "/row-crops.png"
+      "/Bio/PlantPromoter.jpeg"
     ],
     "description": "Special formulation designed to boost plant growth and overall development.",
     "features": [
@@ -784,9 +784,9 @@ export const products: Product[] = [
     "name": "Plant Tonic",
     "category": "Bio Products",
     "subcategory": "Plant Tonic",
-    "image": "/row-crops.png",
+    "image": "/Bio/PlantTonic.jpeg",
     "images": [
-      "/row-crops.png"
+      "/Bio/PlantTonic.jpeg"
     ],
     "description": "General plant tonic that improves vitality and supports healthy crop growth.",
     "features": [
@@ -800,9 +800,9 @@ export const products: Product[] = [
     "name": "Humic Acid",
     "category": "Bio Products",
     "subcategory": "Humic Acid",
-    "image": "/row-crops.png",
+    "image": "/Bio/HumicAcid.jpeg",
     "images": [
-      "/row-crops.png"
+      "/Bio/HumicAcid.jpeg"
     ],
     "description": "Soil conditioner that enhances nutrient uptake and improves soil structure.",
     "features": [
@@ -816,9 +816,9 @@ export const products: Product[] = [
     "name": "Bio Fungicide",
     "category": "Bio Products",
     "subcategory": "Bio Fungicide",
-    "image": "/row-crops.png",
+    "image": "/Bio/FungiSide.jpeg",
     "images": [
-      "/row-crops.png"
+      "/Bio/FungiSide.jpeg"
     ],
     "description": "Biological solution designed to control fungal diseases in crops.",
     "features": [
@@ -832,9 +832,9 @@ export const products: Product[] = [
     "name": "Bio Pesticide",
     "category": "Bio Products",
     "subcategory": "Bio Pesticide",
-    "image": "/row-crops.png",
+    "image": "/Bio/PestiSide.jpeg",
     "images": [
-      "/row-crops.png"
+      "/Bio/PestiSide.jpeg"
     ],
     "description": "Natural pest control product that helps protect crops safely.",
     "features": [
@@ -848,9 +848,9 @@ export const products: Product[] = [
     "name": "Bio Fertilizer",
     "category": "Bio Products",
     "subcategory": "Bio Fertilizer",
-    "image": "/row-crops.png",
+    "image": "/Bio/Fertilizer.jpeg",
     "images": [
-      "/row-crops.png"
+      "/Bio/Fertilizer.jpeg"
     ],
     "description": "Biological fertilizer that improves soil fertility and promotes plant growth.",
     "features": [

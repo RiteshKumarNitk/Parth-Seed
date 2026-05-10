@@ -12,7 +12,7 @@ export default function VisionMissionPage() {
         <section className="bg-primary py-12 text-white">
           <div className="container-custom">
             <h1 className="text-white mb-2">Vision & Mission</h1>
-            <p className="text-gray-300 text-sm font-bold uppercase tracking-widest">The Core Values Driving Our Innovation</p>
+            <p className="text-gray-300 text-sm font-bold uppercase tracking-widest">The Values That Have Guided Us Since 2014</p>
           </div>
         </section>
 
@@ -28,7 +28,7 @@ export default function VisionMissionPage() {
                   <div>
                     <h2 className="text-primary mb-6">Our Vision</h2>
                     <p className="text-gray-600 leading-relaxed italic text-lg border-l-4 border-accent pl-6">
-                      &quot;To be a global leader in agricultural biotechnology, providing innovative and sustainable seed solutions that transform the lives of farmers and ensure a hunger-free world.&quot;
+                      &quot;To be a nationally trusted and globally recognized agricultural company — delivering quality seeds, innovative bio-solutions, and unwavering farmer support that transforms lives from the ground up.&quot;
                     </p>
                   </div>
                 </div>
@@ -43,22 +43,29 @@ export default function VisionMissionPage() {
                       <li className="flex gap-3">
                         <span className="text-accent font-bold">•</span>
                         <div>
-                          <h4 className="text-sm mb-1">SCIENTIFIC EXCELLENCE</h4>
-                          <p className="text-xs">To develop high-yielding hybrid seeds through precision breeding and advanced biotechnology.</p>
+                          <h4 className="text-sm mb-1">QUALITY FIRST</h4>
+                          <p className="text-xs">To supply ISO 9001:2015 certified, high-yielding hybrid seeds and bio-products that consistently meet the needs of farmers across central India and beyond.</p>
                         </div>
                       </li>
                       <li className="flex gap-3">
                         <span className="text-accent font-bold">•</span>
                         <div>
                           <h4 className="text-sm mb-1">FARMER PROSPERITY</h4>
-                          <p className="text-xs">To provide technical guidance and support to the farming community for enhanced agricultural productivity.</p>
+                          <p className="text-xs">To stand alongside farmers with reliable products, honest dealings, and practical on-ground support — ensuring a better harvest every single season.</p>
                         </div>
                       </li>
                       <li className="flex gap-3">
                         <span className="text-accent font-bold">•</span>
                         <div>
-                          <h4 className="text-sm mb-1">QUALITY LEADERSHIP</h4>
-                          <p className="text-xs">To maintain the highest standards of genetic purity and quality in every seed we produce.</p>
+                          <h4 className="text-sm mb-1">COMPLETE AGRICULTURAL SOLUTION</h4>
+                          <p className="text-xs">To offer farmers everything they need under one roof — from hybrid seeds and bio-fertilizers to crop protection and soil nutrition products.</p>
+                        </div>
+                      </li>
+                      <li className="flex gap-3">
+                        <span className="text-accent font-bold">•</span>
+                        <div>
+                          <h4 className="text-sm mb-1">NATIONAL & GLOBAL REACH</h4>
+                          <p className="text-xs">To grow from our current base in MP, Chhattisgarh, and Jharkhand to every Indian state, and ultimately into international markets through export and import initiatives.</p>
                         </div>
                       </li>
                     </ul>
@@ -66,25 +73,46 @@ export default function VisionMissionPage() {
                 </div>
               </div>
 
-              {/* Core Values Column */}
-              <div className="bg-muted p-10 border border-border">
-                <div className="flex gap-4 items-center mb-10">
-                  <Heart size={28} className="text-accent" />
-                  <h3 className="text-primary m-0">Our Core Values</h3>
+              {/* Core Values & Upcoming Initiatives Column */}
+              <div className="flex flex-col gap-8">
+                <div className="bg-muted p-10 border border-border">
+                  <div className="flex gap-4 items-center mb-10">
+                    <Heart size={28} className="text-accent" />
+                    <h3 className="text-primary m-0">Our Core Values</h3>
+                  </div>
+                  <div className="space-y-10">
+                    <div className="standard-card bg-white">
+                      <h4 className="text-sm mb-2 uppercase">Integrity</h4>
+                      <p className="text-xs text-gray-500">11 years in this industry is only possible through honest dealing. Every product, every partnership, and every promise at Parth Seeds is backed by complete transparency and accountability.</p>
+                    </div>
+                    <div className="standard-card bg-white">
+                      <h4 className="text-sm mb-2 uppercase">Innovation</h4>
+                      <p className="text-xs text-gray-500">We continuously evolve our product portfolio and are actively working towards establishing dedicated R&D facilities, solar agriculture initiatives, and livestock nutrition solutions in the coming months.</p>
+                    </div>
+                    <div className="standard-card bg-white">
+                      <h4 className="text-sm mb-2 uppercase">Commitment</h4>
+                      <p className="text-xs text-gray-500">Both co-founders — Rohit Kumar Tiwari and Santosh Jaiswal — are personally involved at every level of the business. That direct ownership of quality is our strongest guarantee to every farmer and partner we serve.</p>
+                    </div>
+                  </div>
                 </div>
-                <div className="space-y-10">
-                  <div className="standard-card bg-white">
-                    <h4 className="text-sm mb-2">INTEGRITY</h4>
-                    <p className="text-xs text-gray-500">Conducting all business activities with transparency, honesty, and ethical standards.</p>
-                  </div>
-                  <div className="standard-card bg-white">
-                    <h4 className="text-sm mb-2">INNOVATION</h4>
-                    <p className="text-xs text-gray-500">Constantly seeking new ways to improve seed performance and agricultural efficiency.</p>
-                  </div>
-                  <div className="standard-card bg-white">
-                    <h4 className="text-sm mb-2">COMMITMENT</h4>
-                    <p className="text-xs text-gray-500">Unwavering dedication to the success and sustainability of the global farming community.</p>
-                  </div>
+
+                <div className="bg-primary/5 p-10 border border-primary/10">
+                  <h3 className="text-primary mb-6 text-xl">Upcoming Initiatives (Coming 2026)</h3>
+                  <p className="text-sm text-gray-600 mb-6">As part of our next phase of growth, we are working towards:</p>
+                  <ul className="space-y-4 text-sm text-gray-600">
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold">•</span>
+                      <span>A dedicated <strong>R&D Center</strong> for new variety trials, soil testing, and nursery operations.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold">•</span>
+                      <span>A <strong>Solar Energy Agriculture Division</strong> to integrate renewable energy into farming for sustainable, cost-effective solutions.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold">•</span>
+                      <span>A <strong>Cattle Feed Division</strong> focused on livestock nutrition, quality feed, and health consultancy.</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

@@ -21,17 +21,20 @@ export default function CompanyProfilePage() {
           <div className="container-custom">
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="md:w-1/2">
-                <h2 className="mb-6">About Parth Seed Limited</h2>
+                <h2 className="mb-6">About Parth Seeds Private Limited</h2>
                 <div className="w-16 h-1 bg-accent mb-8"></div>
                 <div className="space-y-6 text-gray-600 leading-relaxed">
                   <p>
-                    Established with a vision to revolutionize the agricultural landscape, Parth Seed Limited has emerged as a premier seed company in India. For over three decades, we have been at the forefront of developing high-performing hybrid seeds that empower farmers and ensure food security.
+                    Parth Seeds Private Limited is a certified agricultural company headquartered in Satna, Madhya Pradesh. We specialize in high-quality hybrid seeds, crop protection products, bio-fertilizers, and agricultural inputs for farming communities across Madhya Pradesh, Chhattisgarh, and Jharkhand.
                   </p>
                   <p>
-                    Our journey began with a small group of passionate agricultural scientists who believed that technology could solve the challenges faced by Indian farmers. Today, we are a multi-state organization with research centers and processing units across the country.
+                    Our story begins in 2014, when our co-founders started direct field operations with a single purpose — to bring better seeds and honest dealing to Indian farmers. Over the next 11 years, that ground-level commitment shaped our product knowledge, our values, and our understanding of what farmers truly need.
                   </p>
                   <p>
-                    We pride ourselves on our scientific integrity, quality standards, and deep-rooted relationship with the farming community. Every seed that carries the Parth name is a promise of growth, resilience, and prosperity.
+                    On September 5, 2025, we were officially incorporated as Parth Seeds Private Limited (CIN: U46692MP2025PTC078819). On January 7, 2026, we received Startup India recognition from DPIIT (Certificate No. DIPP237743), valid through September 4, 2035, for our work in the Agriculture and Organic Agriculture sectors.
+                  </p>
+                  <p>
+                    Our ISO 9001:2015 certification, issued by Integral Certification Ltd., covers the retail and wholesale of agricultural products — including seeds, fertilizers, pesticides, herbicides, insecticides, crop protection products, organic inputs, and related agricultural products.
                   </p>
                 </div>
               </div>
@@ -56,23 +59,29 @@ export default function CompanyProfilePage() {
             <div className="section-title">
               <h2>Our Achievements</h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="standard-card">
-                <h4 className="text-primary mb-4">NATIONAL RECOGNITION</h4>
+                <h4 className="text-primary mb-4 uppercase text-sm tracking-wider">Startup India Recognition</h4>
                 <p className="text-xs text-gray-500 leading-relaxed">
-                  Recipient of numerous national awards for innovation in seed technology and contributions to the Indian agricultural sector.
+                  Recognized by DPIIT, Ministry of Commerce & Industry, Government of India. Certificate No. DIPP237743. Issued: January 7, 2026. Valid through: September 4, 2035. Sector: Agriculture & Organic Agriculture.
                 </p>
               </div>
               <div className="standard-card">
-                <h4 className="text-primary mb-4">GLOBAL STANDARDS</h4>
+                <h4 className="text-primary mb-4 uppercase text-sm tracking-wider">ISO 9001:2015 Certified</h4>
                 <p className="text-xs text-gray-500 leading-relaxed">
-                  Adherence to international quality standards with ISO 9001:2015 certification for all our processing and testing facilities.
+                  Certified by Integral Certification Ltd. covering the full scope of agricultural retail and wholesale — seeds, fertilizers, pesticides, herbicides, insecticides, crop protection, organic inputs, and related products.
                 </p>
               </div>
               <div className="standard-card">
-                <h4 className="text-primary mb-4">TRUSTED PARTNER</h4>
+                <h4 className="text-primary mb-4 uppercase text-sm tracking-wider">11+ Years of Farmer Trust</h4>
                 <p className="text-xs text-gray-500 leading-relaxed">
-                  A trusted partner to millions of farmers across India, providing them with reliable solutions for every season.
+                  Since 2014, we have built lasting relationships with farmers across MP, Chhattisgarh, and Jharkhand through consistent quality and honest dealings.
+                </p>
+              </div>
+              <div className="standard-card">
+                <h4 className="text-primary mb-4 uppercase text-sm tracking-wider">Three Active States</h4>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                  Currently serving farming communities across Madhya Pradesh, Chhattisgarh, and Jharkhand with a structured expansion plan for pan-India reach.
                 </p>
               </div>
             </div>
