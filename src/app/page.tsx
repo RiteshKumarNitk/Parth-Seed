@@ -5,6 +5,7 @@ import FeatureSection from "@/components/home/FeatureSection";
 import ExpertiseSection from "@/components/home/ExpertiseSection";
 import DivisionsSection from "@/components/home/DivisionsSection";
 import AchievementsSection from "@/components/home/AchievementsSection";
+import ReviewSection from "@/components/home/ReviewSection";
 import AboutImageSlider from "@/components/home/AboutImageSlider";
 import Image from "next/image";
 import Link from "next/link";
@@ -87,6 +88,9 @@ export default function Home() {
 
       {/* Divisions Section */}
       <DivisionsSection />
+
+      {/* Review Section */}
+      <ReviewSection />
 
       {/* Achievements Section */}
       <AchievementsSection />

@@ -70,9 +70,10 @@ export default function Footer() {
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] text-gray-500 font-bold uppercase tracking-widest">
           <p>© {new Date().getFullYear()} PARTH SEED LIMITED. ALL RIGHTS RESERVED.</p>
           <div className="flex gap-6">
-            <Link href="#" className="hover:text-white">Privacy Policy</Link>
-            <Link href="#" className="hover:text-white">Terms of Use</Link>
-            <Link href="#" className="hover:text-white">Sitemap</Link>
+            <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
+            <Link href="/terms-and-conditions" className="hover:text-white">Terms of Use</Link>
+            <Link href="/faq" className="hover:text-white">FAQ</Link>
+            <Link href="/sitemap" className="hover:text-white">Sitemap</Link>
           </div>
         </div>
       </div>
