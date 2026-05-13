@@ -1,8 +1,24 @@
+"use client";
+
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function ContactPage() {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
+    const phone = formData.get("phone") as string;
+    const subject = formData.get("subject") as string;
+    const message = formData.get("message") as string;
+
+    const text = `*New Inquiry from Website*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Phone:* ${phone}%0A*Subject:* ${subject}%0A*Message:* ${message}`;
+    const whatsappNumber = "919752589664"; 
+    window.open(`https://wa.me/${whatsappNumber}?text=${text}`, '_blank');
+  };
+
   return (
     <main className="min-h-screen bg-white">
       <Header />
@@ -51,7 +67,6 @@ export default function ContactPage() {
                         +91 97525 89664 <br />
                         +91 94259 79664 <br />
                         +91 98933 32398
-
                       </p>
                     </div>
                   </div>
@@ -88,32 +103,32 @@ export default function ContactPage() {
               <div className="lg:w-2/3">
                 <div className="bg-muted p-10 border border-border">
                   <h3 className="mb-8">Send a Message</h3>
-                  <form className="space-y-6">
+                  <form className="space-y-6" onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <label className="text-[10px] font-bold uppercase text-gray-500 mb-2 block">Your Name *</label>
-                        <input type="text" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary" required />
+                        <input name="name" type="text" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary" required />
                       </div>
                       <div>
                         <label className="text-[10px] font-bold uppercase text-gray-500 mb-2 block">Email Address *</label>
-                        <input type="email" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary" required />
+                        <input name="email" type="email" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary" required />
                       </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <label className="text-[10px] font-bold uppercase text-gray-500 mb-2 block">Phone Number</label>
-                        <input type="text" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary" />
+                        <input name="phone" type="text" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary" />
                       </div>
                       <div>
                         <label className="text-[10px] font-bold uppercase text-gray-500 mb-2 block">Subject</label>
-                        <input type="text" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary" />
+                        <input name="subject" type="text" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary" />
                       </div>
                     </div>
                     <div>
                       <label className="text-[10px] font-bold uppercase text-gray-500 mb-2 block">Your Message *</label>
-                      <textarea className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary h-32" required></textarea>
+                      <textarea name="message" className="w-full bg-white border border-border p-3 text-sm focus:outline-none focus:border-primary h-32" required></textarea>
                     </div>
-                    <button type="submit" className="btn-primary w-full md:w-auto">Send Message</button>
+                    <button type="submit" className="btn-primary w-full md:w-auto">Send via WhatsApp</button>
                   </form>
                 </div>
               </div>
@@ -134,7 +149,6 @@ export default function ContactPage() {
               referrerPolicy="no-referrer-when-downgrade"
               title="Office Location"
             ></iframe>
-
           </div>
         </section>
       </div>

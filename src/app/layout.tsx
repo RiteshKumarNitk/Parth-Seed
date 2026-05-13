@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col selection:bg-accent/30">
+      <body className="min-h-full flex flex-col selection:bg-accent/30" suppressHydrationWarning>
         {children}
         <FloatingContactButtons />
       </body>

@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary text-white pt-12 pb-6">
+    <footer className="bg-[#0A1F10] text-white pt-12 pb-6">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
@@ -14,11 +14,12 @@ export default function Footer() {
               A leading seed company in India, committed to excellence in agricultural research and high-quality seed production for the benefit of farmers.
             </p>
             <div className="flex gap-4">
-              {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
-                <a key={i} href="#" className="text-gray-400 hover:text-white transition-colors">
-                  <Icon size={18} />
-                </a>
-              ))}
+              <a href="https://www.facebook.com/share/1CT6z7g1Gg/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <Facebook size={18} />
+              </a>
+              <a href="https://www.instagram.com/parthseeds135?utm_source=qr&igsh=aWJlazd1Zngyd3l2" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <Instagram size={18} />
+              </a>
             </div>
           </div>
 
@@ -27,6 +28,7 @@ export default function Footer() {
             <h4 className="text-white border-l-4 border-accent pl-3 mb-6 text-sm">QUICK LINKS</h4>
             <ul className="space-y-3 text-xs text-gray-400">
               <li><Link href="/about" className="hover:text-white">About the Company</Link></li>
+              <li><Link href="/social-impact" className="hover:text-white">Social Impact (CSR)</Link></li>
               <li><Link href="/products" className="hover:text-white">Our Product Range</Link></li>
               <li><Link href="/innovation" className="hover:text-white">Research & Development</Link></li>
               {/* <li><Link href="/media" className="hover:text-white">Media & News</Link></li>
@@ -38,8 +40,6 @@ export default function Footer() {
           <div>
             <h4 className="text-white border-l-4 border-accent pl-3 mb-6 text-sm">PRODUCTS</h4>
             <ul className="space-y-3 text-xs text-gray-400">
-              <li><Link href="/products?category=Field Crops" className="hover:text-white">Hybrid Cotton Seeds</Link></li>
-              <li><Link href="/products?category=Field Crops" className="hover:text-white">Hybrid Maize Seeds</Link></li>
               <li><Link href="/products?category=Vegetable Crops" className="hover:text-white">Vegetable Seeds</Link></li>
               <li><Link href="/products?category=Field Crops" className="hover:text-white">Field Crop Seeds</Link></li>
             </ul>

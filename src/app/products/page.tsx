@@ -16,7 +16,7 @@ function ProductListContent() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  
+
   const categoryParam = searchParams.get("category");
   const activeCategory = (categoryParam && categories.includes(categoryParam)) ? categoryParam : "All";
   const [searchQuery, setSearchQuery] = useState("");
@@ -33,8 +33,8 @@ function ProductListContent() {
 
   const filteredProducts = products.filter((p) => {
     const matchesCategory = activeCategory === "All" || p.category === activeCategory;
-    const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                         p.subcategory.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      p.subcategory.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
@@ -53,9 +53,9 @@ function ProductListContent() {
               <label className="text-[10px] font-bold uppercase text-gray-500 mb-2 block">Search Variety</label>
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={14} />
-                <input 
-                  type="text" 
-                  placeholder="Search..." 
+                <input
+                  type="text"
+                  placeholder="Search..."
                   className="w-full pl-9 pr-3 py-2 bg-white border border-border text-xs focus:outline-none focus:border-primary"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
@@ -72,8 +72,8 @@ function ProductListContent() {
                     onClick={() => handleCategoryChange(cat)}
                     className={cn(
                       "text-left px-3 py-2 text-[11px] font-bold border-l-2 transition-all",
-                      activeCategory === cat 
-                        ? "bg-white border-primary text-primary" 
+                      activeCategory === cat
+                        ? "bg-white border-primary text-primary"
                         : "text-gray-500 border-transparent hover:bg-gray-50"
                     )}
                   >
@@ -128,7 +128,7 @@ export default function ProductsPage() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      
+
       <div className="pt-24 md:pt-[110px]">
         {/* Banner */}
         <section className="bg-primary py-12 text-white">

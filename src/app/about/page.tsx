@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      
+
       <div className="pt-24 md:pt-[110px]">
         {/* Banner */}
         <section className="bg-primary py-12 text-white">
@@ -35,11 +35,11 @@ export default function AboutPage() {
               </div>
               <div className="md:w-1/2">
                 <div className="border border-border p-2 bg-muted">
-                  <Image 
-                    src="/row-crops.png" 
-                    alt="Corporate Profile" 
-                    width={600} 
-                    height={400} 
+                  <Image
+                    src="/row-crops.png"
+                    alt="Corporate Profile"
+                    width={600}
+                    height={400}
                     className="w-full h-auto"
                   />
                 </div>

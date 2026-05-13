@@ -17,6 +17,7 @@ const navLinks = [
       { name: "Company Profile", href: "/about/profile" },
       { name: "Vision & Mission", href: "/about/vision" },
       { name: "Management Team", href: "/about/team" },
+      { name: "Social Impact", href: "/social-impact" },
     ]
   },
   {
@@ -76,8 +77,8 @@ export default function Header() {
               <a href="tel:+919752589664" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Phone size={12} /> +91 97525 89664
               </a>
-              <a href="mailto:rohit135@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Mail size={12} /> rohit135@gmail.com
+              <a href="mailto:parthaspl25@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Mail size={12} /> parthaspl25@gmail.com
               </a>
             </div>
             <div className="hidden sm:block tracking-widest">ISO 9001:2015 CERTIFIED</div>
@@ -98,6 +99,7 @@ export default function Header() {
                 src="/logo/parthseeds.jpg"
                 alt="Parth Seed Logo"
                 fill
+                sizes="(max-width: 768px) 40px, 48px"
                 className="object-cover"
                 priority
               />
@@ -209,7 +211,7 @@ export default function Header() {
           <div className="flex justify-between items-center p-6 border-b border-border bg-white">
             <div className="flex items-center gap-3">
               <div className="animate-logo relative overflow-hidden w-10 h-10 rounded-sm bg-primary">
-                <Image src="/logo/parthseeds.jpg" alt="Parth Seed" fill className="object-cover" />
+                <Image src="/logo/parthseeds.jpg" alt="Parth Seed" fill sizes="40px" className="object-cover" />
               </div>
               <span className="font-display font-black text-primary text-xl tracking-tighter">PARTH SEED</span>
             </div>
@@ -270,7 +272,7 @@ export default function Header() {
                 <Phone size={16} className="text-primary" /> +91 97525 89664
               </div>
               <div className="flex items-center gap-3 text-xs font-bold text-secondary">
-                <Mail size={16} className="text-primary" /> rohit135@gmail.com
+                <Mail size={16} className="text-primary" /> parthaspl25@gmail.com
               </div>
               <Link
                 href="/contact"

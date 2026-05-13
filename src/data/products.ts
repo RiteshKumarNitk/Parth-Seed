@@ -304,9 +304,9 @@ export const products: Product[] = [
     "name": "Okra (Hybrid & Improved)",
     "category": "Vegetable Crops",
     "subcategory": "Okra",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Okra (Hybrid & Improved).webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Okra (Hybrid & Improved).webp"
     ],
     "description": "High-yield okra varieties producing tender pods with consistent quality and growth.",
     "features": [
@@ -320,9 +320,9 @@ export const products: Product[] = [
     "name": "Hybrid Tomato",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Tomato",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Tomato.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Tomato.webp"
     ],
     "description": "High-yielding hybrid tomato with uniform fruits, good firmness, and strong market demand.",
     "features": [
@@ -336,9 +336,9 @@ export const products: Product[] = [
     "name": "Hybrid Bitter Gourd",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Bitter Gourd",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Bitter Gourd.jpeg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Bitter Gourd.jpeg"
     ],
     "description": "Hybrid bitter gourd with consistent fruit quality and strong vine growth.",
     "features": [
@@ -352,9 +352,9 @@ export const products: Product[] = [
     "name": "Hybrid Bottle Gourd",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Bottle Gourd",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/bottle gourd.jpeg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/bottle gourd.jpeg"
     ],
     "description": "Fast-growing bottle gourd variety with uniform fruit shape and reliable yield.",
     "features": [
@@ -368,9 +368,9 @@ export const products: Product[] = [
     "name": "Hybrid Sponge Gourd",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Sponge Gourd",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Sponge Gourd.jpg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Sponge Gourd.jpg"
     ],
     "description": "High-yield sponge gourd variety producing tender fruits suitable for regular harvesting.",
     "features": [
@@ -384,9 +384,9 @@ export const products: Product[] = [
     "name": "Hybrid Ridge Gourd",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Ridge Gourd",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Ridge Gourd.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Ridge Gourd.webp"
     ],
     "description": "Ridge gourd variety known for strong vines and consistent fruit production.",
     "features": [
@@ -400,9 +400,9 @@ export const products: Product[] = [
     "name": "Hybrid Pumpkin",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Pumpkin",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Pumpkin.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Pumpkin.webp"
     ],
     "description": "Pumpkin variety producing large, uniform fruits with strong plant growth.",
     "features": [
@@ -416,9 +416,9 @@ export const products: Product[] = [
     "name": "Hybrid Chilli",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Chilli",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Chilli.jpg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Chilli.jpg"
     ],
     "description": "High-yield chilli variety with uniform fruits and good pungency.",
     "features": [
@@ -432,9 +432,9 @@ export const products: Product[] = [
     "name": "Hybrid Brinjal",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Brinjal",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Brinjal.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Brinjal.webp"
     ],
     "description": "Brinjal variety producing glossy, uniform fruits with strong plant structure.",
     "features": [
@@ -448,9 +448,9 @@ export const products: Product[] = [
     "name": "Hybrid Watermelon",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Watermelon",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Watermelon.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Watermelon.webp"
     ],
     "description": "Watermelon variety with sweet taste, uniform fruit size, and good market appeal.",
     "features": [
@@ -464,9 +464,9 @@ export const products: Product[] = [
     "name": "Hybrid Muskmelon",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Muskmelon",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Muskmelon.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Muskmelon.webp"
     ],
     "description": "Muskmelon variety with excellent aroma, sweetness, and uniform fruit development.",
     "features": [
@@ -480,9 +480,9 @@ export const products: Product[] = [
     "name": "Hybrid Cucumber",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Cucumber",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Cucumber.jpeg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Cucumber.jpeg"
     ],
     "description": "Fast-growing cucumber variety producing crisp and uniform fruits.",
     "features": [
@@ -496,9 +496,9 @@ export const products: Product[] = [
     "name": "Hybrid Capsicum",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Capsicum",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Capsicum.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Capsicum.webp"
     ],
     "description": "Capsicum variety with thick, colorful fruits suitable for commercial cultivation.",
     "features": [
@@ -512,9 +512,9 @@ export const products: Product[] = [
     "name": "Hybrid Cauliflower",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Cauliflower",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Cauliflower.jpg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Cauliflower.jpg"
     ],
     "description": "Cauliflower variety producing compact, uniform curds with good size.",
     "features": [
@@ -528,9 +528,9 @@ export const products: Product[] = [
     "name": "Hybrid Carrot",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Carrot",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Carrot.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Carrot.webp"
     ],
     "description": "Carrot variety with smooth, uniform roots and attractive color.",
     "features": [
@@ -544,9 +544,9 @@ export const products: Product[] = [
     "name": "Hybrid Radish",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Radish",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Radish.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Radish.webp"
     ],
     "description": "Fast-growing radish variety with smooth roots and good taste.",
     "features": [
@@ -560,9 +560,9 @@ export const products: Product[] = [
     "name": "Hybrid Sweet Corn",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Sweet Corn",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Sweet Corn.jpg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Sweet Corn.jpg"
     ],
     "description": "Sweet corn variety with tender, sweet kernels and uniform cob formation.",
     "features": [
@@ -576,9 +576,9 @@ export const products: Product[] = [
     "name": "Hybrid Baby Corn",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Baby Corn",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Baby Corn.jpg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Baby Corn.jpg"
     ],
     "description": "Early maturing baby corn variety producing tender and uniform cobs.",
     "features": [
@@ -592,9 +592,9 @@ export const products: Product[] = [
     "name": "Hybrid Beans",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Beans",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Beans.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Beans.webp"
     ],
     "description": "Beans variety producing tender pods with consistent yield and growth.",
     "features": [
@@ -608,9 +608,9 @@ export const products: Product[] = [
     "name": "Hybrid Broccoli",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Broccoli",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Broccoli.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Broccoli.webp"
     ],
     "description": "Broccoli variety with compact green heads and uniform growth.",
     "features": [
@@ -624,9 +624,9 @@ export const products: Product[] = [
     "name": "Hybrid Turnip",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Turnip",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Turnip.jpeg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Turnip.jpeg"
     ],
     "description": "Turnip variety producing smooth and uniform roots with fast growth.",
     "features": [
@@ -640,9 +640,9 @@ export const products: Product[] = [
     "name": "Hybrid Beetroot",
     "category": "Vegetable Crops",
     "subcategory": "Hybrid Beetroot",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Hybrid Beetroot.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Hybrid Beetroot.webp"
     ],
     "description": "Beetroot variety with deep color and uniform root development.",
     "features": [
@@ -656,9 +656,9 @@ export const products: Product[] = [
     "name": "Improved Methi",
     "category": "Vegetable Crops",
     "subcategory": "Improved Methi",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Improved Methi.jpg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Improved Methi.jpg"
     ],
     "description": "Fast-growing methi variety with good leaf quality and yield.",
     "features": [
@@ -672,9 +672,9 @@ export const products: Product[] = [
     "name": "Improved Coriander",
     "category": "Vegetable Crops",
     "subcategory": "Improved Coriander",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Coriander.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Coriander.webp"
     ],
     "description": "Coriander variety suitable for both leaf and seed production with good aroma.",
     "features": [
@@ -688,9 +688,9 @@ export const products: Product[] = [
     "name": "Improved Onion",
     "category": "Vegetable Crops",
     "subcategory": "Improved Onion",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Onion.jpg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Onion.jpg"
     ],
     "description": "Onion variety producing uniform bulbs with good storage quality.",
     "features": [
@@ -704,9 +704,9 @@ export const products: Product[] = [
     "name": "Improved Spinach",
     "category": "Vegetable Crops",
     "subcategory": "Improved Spinach",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Spinach.webp",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Spinach.webp"
     ],
     "description": "Spinach variety with fast leaf growth and good nutritional value.",
     "features": [
@@ -720,9 +720,9 @@ export const products: Product[] = [
     "name": "Improved Chaulai",
     "category": "Vegetable Crops",
     "subcategory": "Improved Chaulai",
-    "image": "/vegetables.png",
+    "image": "/Vegetable-crop/Chaulaee.jpg",
     "images": [
-      "/vegetables.png"
+      "/Vegetable-crop/Chaulaee.jpg"
     ],
     "description": "Chaulai variety suitable for leafy vegetable production with quick growth.",
     "features": [
