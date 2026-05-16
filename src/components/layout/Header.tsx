@@ -75,7 +75,13 @@ export default function Header() {
           <div className="container-custom flex justify-between items-center whitespace-nowrap">
             <div className="flex gap-4 md:gap-8">
               <a href="tel:+919752589664" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Phone size={12} /> +91 97525 89664
+                <Phone size={12} /> +91 9752589664
+              </a>
+              <a href="tel:+919826230048" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Phone size={12} /> +91 9826230048
+              </a>
+              <a href="mailto:rohitt135@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Mail size={12} /> rohitt135@gmail.com
               </a>
               <a href="mailto:parthaspl25@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Mail size={12} /> parthaspl25@gmail.com
@@ -270,6 +276,9 @@ export default function Header() {
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3 text-xs font-bold text-secondary">
                 <Phone size={16} className="text-primary" /> +91 97525 89664
+              </div>
+              <div className="flex items-center gap-3 text-xs font-bold text-secondary">
+                <Mail size={16} className="text-primary" /> rohitt135@gmail.com
               </div>
               <div className="flex items-center gap-3 text-xs font-bold text-secondary">
                 <Mail size={16} className="text-primary" /> parthaspl25@gmail.com

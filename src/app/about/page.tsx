@@ -97,7 +97,8 @@ export default function AboutPage() {
                 </p>
                 <div className="text-xs text-gray-500 font-medium">
                   <p>Contact: +91 97525 89664</p>
-                  <p>rohit135@gmail.com</p>
+                  <p>rohit135@gmail.com (Personal)</p>
+                  <p>parthaspl25@gmail.com (Company)</p>
                 </div>
               </div>
 

@@ -32,10 +32,13 @@ export default function Home() {
             <div className="md:w-1/2">
               <h2 className="mb-6">Who We Are</h2>
               <p className="text-gray-600 mb-4 leading-relaxed font-bold">
-                Parth Seeds Pvt. Ltd.
+                Parth Seeds Pvt. Ltd.* is one of India’s emerging research and development-driven seed companies, specializing in the production, processing, and marketing of premium-quality seeds for cereal and vegetable crops.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Pioneering agricultural excellence for over 20 years. Providing specialized seeds, protection, and nutrition solutions to 2500+ farmers across India. With our robust R&D capabilities and a vast network of processing units, we ensure that every seed we produce meets the highest standards of genetic purity and germination.
+                With advanced technology, modern production facilities, and an experienced research team, we are committed to delivering reliable, high-performing, and region-specific hybrid seeds to farmers across the country.
+              </p>
+              <p className="text-gray-600 mb-8 leading-relaxed">
+                Our expertise, innovation, and dedication to quality continuously support farmers in improving productivity, profitability, and sustainable agricultural growth.
               </p>
               <button className="btn-primary">Learn More About Us</button>
             </div>

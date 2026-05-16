@@ -51,7 +51,12 @@ export default function Footer() {
             <ul className="space-y-4 text-xs text-gray-400">
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-accent shrink-0" />
-                <span>Registered Office, Seed Valley, <br />Gujarat, India - 380001</span>
+                <span> PARTH SEEDS PVT. LTD. <br />
+                  Infront of Dwivedi beej Bhandar, <br />
+                  JP road, shine library, beside of <br />
+                  pandey kirana store, near of sachchu <br />
+                  fruits & vegetables shop, Bagha, <br />
+                  Bagha Infront of, Satna, Madhya Pradesh 485001</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-accent shrink-0" />
