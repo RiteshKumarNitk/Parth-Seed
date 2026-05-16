@@ -60,13 +60,13 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-accent shrink-0" />
-                <span>+91 9752589664</span>
-                <span>+91 9425979664</span>
+                {/* <span>+91 9752589664</span> */}
+                <span>+91 9826230048</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-accent shrink-0" />
-                <span>rohitt135@gmail.com (Personal)</span>
-                <span>parthaspl25@gmail.com (Company)</span>
+                <span>rohitt135@gmail.com</span>
+                {/* <span>parthaspl25@gmail.com (Company)</span> */}
               </li>
             </ul>
           </div>

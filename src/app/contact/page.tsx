@@ -15,7 +15,7 @@ export default function ContactPage() {
     const message = formData.get("message") as string;
 
     const text = `*New Inquiry from Website*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Phone:* ${phone}%0A*Subject:* ${subject}%0A*Message:* ${message}`;
-    const whatsappNumber = "919752589664"; 
+    const whatsappNumber = "919752589664";
     window.open(`https://wa.me/${whatsappNumber}?text=${text}`, '_blank');
   };
 
@@ -64,9 +64,8 @@ export default function ContactPage() {
                     <div>
                       <h4 className="text-sm mb-2">CALL US</h4>
                       <p className="text-xs text-gray-500 font-bold tracking-widest">
-                        +91 97525 89664 <br />
-                        +91 94259 79664 <br />
-                        +91 98933 32398
+                        +91 9752589664 <br />
+                        +91 9425979664 <br />
                       </p>
                     </div>
                   </div>
@@ -78,8 +77,8 @@ export default function ContactPage() {
                     <div>
                       <h4 className="text-sm mb-2">EMAIL US</h4>
                       <p className="text-xs text-gray-500 font-bold tracking-widest">
-                        INFO@PARTHSEED.COM <br />
-                        SALES@PARTHSEED.COM
+                        rohitt135@gmail.com (Personal) <br />
+                        parthaspl25@gmail.com (Company)
                       </p>
                     </div>
                   </div>

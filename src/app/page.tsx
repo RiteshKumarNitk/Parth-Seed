@@ -40,7 +40,7 @@ export default function Home() {
               <p className="text-gray-600 mb-8 leading-relaxed">
                 Our expertise, innovation, and dedication to quality continuously support farmers in improving productivity, profitability, and sustainable agricultural growth.
               </p>
-              <button className="btn-primary">Learn More About Us</button>
+              <Link href="/about" className="btn-primary">Learn More About Us</Link>
             </div>
           </div>
         </div>

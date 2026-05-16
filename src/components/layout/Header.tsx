@@ -16,7 +16,7 @@ const navLinks = [
       { name: "About Us", href: "/about" },
       { name: "Company Profile", href: "/about/profile" },
       { name: "Vision & Mission", href: "/about/vision" },
-      { name: "Management Team", href: "/about/team" },
+      // { name: "Management Team", href: "/about/team" },
       { name: "Social Impact", href: "/social-impact" },
     ]
   },
@@ -77,12 +77,12 @@ export default function Header() {
               <a href="tel:+919752589664" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Phone size={12} /> +91 9752589664
               </a>
-              <a href="tel:+919826230048" className="flex items-center gap-2 hover:text-accent transition-colors">
+              {/* <a href="tel:+919826230048" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Phone size={12} /> +91 9826230048
-              </a>
-              <a href="mailto:rohitt135@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+              </a> */}
+              {/* <a href="mailto:rohitt135@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Mail size={12} /> rohitt135@gmail.com
-              </a>
+              </a> */}
               <a href="mailto:parthaspl25@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Mail size={12} /> parthaspl25@gmail.com
               </a>

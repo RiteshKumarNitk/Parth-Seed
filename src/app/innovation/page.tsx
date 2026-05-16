@@ -7,7 +7,7 @@ export default function InnovationPage() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      
+
       <div className="pt-24 md:pt-[110px]">
         {/* Banner */}
         <section className="bg-primary py-12 text-white">
@@ -23,11 +23,11 @@ export default function InnovationPage() {
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="md:w-1/2">
                 <div className="border border-border p-2 bg-muted">
-                  <Image 
-                    src="/hero.png" 
-                    alt="R&D Lab" 
-                    width={600} 
-                    height={400} 
+                  <Image
+                    src="/hero.png"
+                    alt="R&D Lab"
+                    width={600}
+                    height={400}
                     className="w-full h-auto opacity-80"
                   />
                 </div>
@@ -98,7 +98,7 @@ export default function InnovationPage() {
         </section>
 
         {/* Media & News Section */}
-        <section className="section-padding">
+        {/* <section className="section-padding">
           <div className="container-custom">
             <div className="section-title">
               <h2>Media & Publications</h2>
@@ -128,7 +128,7 @@ export default function InnovationPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
 
       <Footer />
